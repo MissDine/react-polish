@@ -46,3 +46,7 @@ a:hover {
     margin: 40px auto;
     padding: 20px;
 }
+
+.fname {
+    color: palevioletred;
+}
