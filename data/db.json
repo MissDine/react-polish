@@ -1,0 +1,15 @@
+{
+    "blogs": [{
+            "title": "My love life ",
+            "body": "lorem...",
+            "author": "Enid",
+            "id": 1
+        },
+        {
+            "title": "My sweet body",
+            "body": "lorem...",
+            "author": "Dine",
+            "id": 2
+        }
+    ]
+}
