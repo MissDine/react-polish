@@ -30,8 +30,9 @@ const Home = () => {
     })
     // UseEffect to fetch some data
     useEffect(()=>{
+        const abortCont = new AbortController();
         // setTimeout(()=>{
-            fetch("http://localhost:8000/blogs")
+            fetch("http://localhost:8000/blogs", {signal: abortCont.signal})
         .then(response => {
             if(!response.ok){
                 throw Error("Could not fetch the data")
@@ -48,6 +49,7 @@ const Home = () => {
             setError(err.message)
     })
         // },1000)
+        return () => abortCont.abort();
     }, [])
     return (
         <div className="home">
