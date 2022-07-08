@@ -32,7 +32,7 @@ const Home = () => {
     useEffect(()=>{
         const abortCont = new AbortController();
         // setTimeout(()=>{
-            fetch("http://localhost:8000/blogs", {signal: abortCont.signal})
+            fetch("http://localhost:9000/blogs", {signal: abortCont.signal})
         .then(response => {
             if(!response.ok){
                 throw Error("Could not fetch the data")
@@ -45,8 +45,13 @@ const Home = () => {
             setPending(false)
         })
         .catch(err=>{
-            console.log(err.message);
+            if(err.name === "AbortError"){
+                console.log("Fetch aborted");
+            }else{
+                console.log(err.message);
             setError(err.message)
+            }
+            
     })
         // },1000)
         return () => abortCont.abort();

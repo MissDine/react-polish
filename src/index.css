@@ -50,3 +50,32 @@ a:hover {
 .fname {
     color: palevioletred;
 }
+
+.create h2 {
+    font-size: 2rem;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: center;
+    color: red;
+    display: block;
+}
+
+.create input,
+.create textarea,
+.create select {
+    width: 400px;
+    padding: 6x 10px;
+    margin: 10px 0;
+    border: 1px solid#ddd;
+    display: block;
+    box-sizing: border-box;
+}

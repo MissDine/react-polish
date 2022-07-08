@@ -1,15 +1,64 @@
 {
-    "blogs": [{
-            "title": "My love life ",
-            "body": "lorem...",
-            "author": "Enid",
-            "id": 1
-        },
-        {
-            "title": "My sweet body",
-            "body": "lorem...",
-            "author": "Dine",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My love life ",
+      "body": "lorem...",
+      "author": "Enid",
+      "id": 1
+    },
+    {
+      "title": "My sweet body",
+      "body": "lorem...",
+      "author": "Dine",
+      "id": 2
+    },
+    {
+      "title": "My sweet marriage",
+      "body": "Its been a sweet life",
+      "author": "Tichi",
+      "id": 3
+    },
+    {
+      "title": "israelites",
+      "body": "ffff",
+      "author": "Tichi",
+      "id": 4
+    },
+    {
+      "title": "eee",
+      "body": "ff",
+      "author": "Enid",
+      "id": 5
+    },
+    {
+      "title": "eee",
+      "body": "ff",
+      "author": "Enid",
+      "id": 6
+    },
+    {
+      "title": "hh",
+      "body": "lllll",
+      "author": "Dine",
+      "id": 7
+    },
+    {
+      "title": "hh",
+      "body": "lllll",
+      "author": "Dine",
+      "id": 8
+    },
+    {
+      "title": "jj",
+      "body": "kk",
+      "author": "Enid",
+      "id": 9
+    },
+    {
+      "title": "cook",
+      "body": "chapati",
+      "author": "Tichi",
+      "id": 10
+    }
+  ]
 }
